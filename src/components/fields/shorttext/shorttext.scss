@@ -1,0 +1,18 @@
+input {
+  /*border: none !important;*/
+  &:hover {
+    @apply no-underline;
+  }
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    @apply text-[color:var(--color-sec)];
+  }
+}
+
+.react-tel-input .form-control {
+  width:auto;
+  padding-right: 10px;
+}

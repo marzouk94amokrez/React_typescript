@@ -1,0 +1,12 @@
+{
+ 
+  "fields": {
+    "first_name": "Nom",
+    "last_name": "Prénom",
+    "cellphone_number" :"Numéro de téléphone",
+    "home_phone_number": "Numéro fix"
+
+   
+  }
+
+}

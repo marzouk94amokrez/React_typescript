@@ -1,0 +1,31 @@
+.navbar {
+  @apply flex flex-row h-full w-full justify-between items-center;
+
+  button {
+    @apply float-left text-center cursor-pointer text-xs leading-none text-[color:var(--color-princ)] px-4 text-[0.8rem] font-medium;
+
+    &:hover {
+      @apply text-[color:var(--color-sec)];
+    }
+
+    .icon:hover {
+      @apply text-[color:var(--color-sec)];
+    }
+
+    &:visited {
+      @apply text-[color:var(--color-princ)];
+    }
+
+    span {
+      @apply text-[color:var(--color-princ)];
+    }
+  }
+
+  .navbar_left {
+    @apply flex-auto;
+  }
+
+  .navbar_right {
+    @apply flex-none;
+  }
+}

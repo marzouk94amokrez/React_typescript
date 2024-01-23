@@ -1,0 +1,7 @@
+import "./email"
+import "./min"
+import "./max"
+import "./hexadecimal"
+import "./phone"
+import "./numeric"
+import "./mandatory"

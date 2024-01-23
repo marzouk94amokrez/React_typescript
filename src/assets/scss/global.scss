@@ -1,0 +1,128 @@
+@import "variable";
+
+:root {
+  --bleu-icd: #{$bleu-icd};
+  --bleu-secondaire: #{$bleu-secondaire};
+  --noir-light: #{$noir-light};
+  --gris: #{$gris};
+  --gris-bleu: #{$gris-bleu};
+  --gris-fond: #{$gris-fond};
+  --vert: #{$vert};
+  --rouge: #{$rouge};
+  --violet: #{$violet};
+  --vert-fond: #{$vert-fond};
+  --background-color: #{$background-color};
+
+  // Couleurs principales
+  --color-identity: var(--bleu-icd);
+  --color-princ: var(--bleu-icd);
+  --color-sec: var(--bleu-secondaire);
+  --color-default: var(--noir-light);
+
+  // Couleur du background de l'app
+  --color-app-bg: rgb(240, 248, 255);
+  --color-container-bg: rgb(77, 97, 116);
+
+  // Scrollbars
+  --color-scrollbar-thumb: rgb(241, 241, 241);
+  --color-scrollbar-track: rgb(214, 209, 209);
+
+  // Textes, libellés et lien
+  --text-color: var(--noir-light);
+  --label-color: var(--bleu-secondaire);
+  --link-color: var(--bleu-icd);
+  --link-color-hover: var(--bleu-secondaire);
+  --link-color-visited: var(--bleu-icd);
+
+  // Menu
+  --menu-color-expand-button: var(--bleu-icd);
+  --menu-bg-expand-button: white;
+  --menu-bg--collapsed--hover: white;
+  --menu-color-level-1: var(--bleu-secondaire);
+  --menu-color-level-1-hover: white;
+  --menu-color-level-1-active: white;
+  --menu-color-level-2: var(--bleu-secondaire);
+  --menu-color-level-2-hover: var(--bleu-icd);
+  --menu-color-level-2-active: var(--bleu-icd);
+
+  // Encarts
+  --border-bloc-dashboard: var(--gris-bleu);
+  --border-bloc-internal: var(--bleu-secondaire);
+
+  // Processus, timeline
+  --label-state-active: var(--bleu-secondaire);
+  --label-state-done: var(--bleu-secondaire);
+  --label-state-futur: var(--gris-bleu);
+  --label-state-upcoming: var(--gris);
+  --label-state-color: var(--gris-bleu);
+  --label-state-error: var(--rouge);
+
+  // Pagination
+  --pagination-active: var(--bleu-icd);
+
+  // Titres
+  --title-color: var(--bleu-icd);
+  --title-bloc-list: var(--noir-light);
+  --title-color-internal: var(--bleu-icd);
+  --title-tab-dashboard: var(--bleu-secondaire);
+  --subtitle-color: var(--bleu-secondaire);
+
+  // Boutons
+  --button-color: var(--bleu-icd);
+  --button-border-principal: var(--bleu-icd);
+  --button-border-sec: var(--gris-bleu);
+  --button-background: white;
+  --button-background-hover: var(--gris-fond);
+
+  // Background
+  --background-color: var(--background-color);
+  --background-color-page: white;
+  --background-color-modal: white;
+
+  // Input, Option
+  --input-form-background: var(--background-color-modal);
+  --fields-background: var(--gris-bleu);
+  --fields-border-color: var(--gris-fond);
+
+  // Sidebar
+  --colors-secondary-3: var(--gris-fond);
+
+  // Toggle
+  --toggle-active-color: #{$toggle-active-color};
+  --toggle-inactive-color: #{$toggle-inactive-color};
+  // Togle alt - Check
+  --toggle-alt-active-color: var(--bleu-icd);
+
+  // Label
+  --label-disabled-color: #{$toggle-inactive-color};
+
+  // Bloc
+  --bloc-inactive-color: var(--gris);
+
+  // Separator
+  --separator-border-color: var(--gris-fond);
+
+  // Multi enum
+  --multi-enum-border-color: var(--gris);
+  --multi-enum-background-color: var(--gris-fond);
+
+}
+:export {
+  bleuIcd: var(--color-identity);
+  bleuSecondaire: var( --color-identity);
+  colorIdentity: var(--color-identity);
+  colorPrinc: var( --color-princ);
+  colorSec: var(--color-sec);
+  colorDefault: var(--color-default);
+  gris:var(--gris);
+  grisBleu:var(--gris-bleu);
+  
+}
+
+
+
+@mixin internal-inserts {
+  border: 1px solid $bleu-secondaire;
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+}

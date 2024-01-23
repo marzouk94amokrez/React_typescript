@@ -1,0 +1,59 @@
+.confirmationModal__title{
+    margin: 0 0 15px 0px;
+    
+    border-bottom: 2px solid #B49289;
+}
+.confirmationModal__title h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.confirmationModal__body{
+    min-height: 50px ;
+    margin: 10px 0 10px 5px;
+}
+.confirmationModal__body p{
+    font-size: 1.1rem;
+}
+
+.confirmationModal__footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 2px solid #B49289;
+    padding-top: 10px;
+}
+
+.confirmationModal__Btn{
+    display: flex;
+    padding: 10px ;
+    justify-self: self-end;
+    background-color: #022f67;
+    border: 2px solid #022f67;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.confirmationModal__Btn:hover{
+    transition: 0.2s all ease;
+    background-color: white;
+    color: #022f67;
+}
+.confirmationModal__Btn:focus{
+    outline: none;
+}
+
+.cm__confirmBtn{
+    margin-right: 10px;
+}
+.cm__cancelBtn{
+    background-color: #ea5e0b;
+    border: 2px solid #ea5e0b;
+}
+
+.cm__cancelBtn:hover{
+    background-color: white;
+    color: #ea5e0b;
+}

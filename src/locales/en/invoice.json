@@ -1,0 +1,50 @@
+{
+  "modal": {
+    "title": "Invoice action"
+  },
+  "label": {
+    "action": "Action",
+    "cause": "Cause",
+    "comment": "Comment",
+    "optional": "optional",
+    "required": "mandatory",
+    "accept": "Good to pay",
+    "refuse": "Refuse to pay",
+    "refuse_order": "Bad order number",
+    "refuse_quantity": "Quantity discrepancy",
+    "refuse_article": "Article missmacth",
+    "refuse_amount": "Amount discrepancy",
+    "dispute": "Dispute",
+    "pending_validation": "Request a validation",
+    "deposit_notice": "Deposit notices",
+    "supplier": "Supplier",
+    "invoice_deposit": "Invoice deposit",
+    "deposit_list": "List of deposited files",
+    "column_filename": "File",
+    "column_filesize": "Size",
+    "column_filetype": "Name"
+  },
+  "error_message": {
+    "action_required": "Action required",
+    "reason_comment_required": "Cause and comment required",
+    "comment_required": "Comment required",
+    "reason_required": "Cause required"
+  },
+  "message": {
+    "deposit_notice_1": "Le factures doivent être déposés au format PDF et ne doivent pas excéder un poids de 8 Mega Octets(Mo) par facture"
+  },
+  "headers": {
+    "invoice_customer_list_title": "Liste des factures client",
+    "invoice_customer_list_subtitle": "factures client"
+  },
+  "status":{
+    "INVOICE_RECEIVED": "Facture reçue",
+    "INVOICE_VALIDATED": "Facture validée",
+    "INVOICE_CONTROLLED": "Facture contrôlée",
+    "INVOICE_PAID": "Facture payée",
+    "INVOICE_TO_CONTROL": "Facture à contrôler",
+    "INVOICE_SENT": "Facture envoyée",
+    "INVOICE_REJECTED": "Facture rejetée"
+    
+  }
+}

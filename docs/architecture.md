@@ -1,0 +1,6 @@
+
+
+```typescript { "static": true }
+
+
+```

@@ -1,0 +1,21 @@
+.inactiveBloc {
+   .identifier {
+    color:var(--bloc-inactive-color) !important;
+   }
+   .title {
+    color:var(--bloc-inactive-color)!important;
+    cursor: not-allowed;
+   }
+   .infosBloc {
+    color:var(--bloc-inactive-color) !important;
+   }
+   .dates {
+    color:var(--bloc-inactive-color)!important;
+   }
+   .status {
+    color:var(--bloc-inactive-color) !important;
+   }
+   .pictos {
+    color: var(--bloc-inactive-color)!important;
+   }
+}

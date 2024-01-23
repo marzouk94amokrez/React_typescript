@@ -1,0 +1,15 @@
+{
+  "validation": {
+    "error":{
+      "email":"Email invalide",
+      "min":"La valeur %(field)s doit être supérieure à %(value)s",
+      "minlength":"La longueur de %(field)s doit être supérieure à %(value)s",
+      "max":"La valeur %(field)s doit être inférieure à %(value)s",
+      "maxlength":"La longueur de %(field)s doit être inférieure à %(value)s",
+      "hexadecimal":"La valeur doit être un hexadecimal",
+      "phone":"Le numéro de téléphone est invalide",
+      "numeric":"La valeur doît être des caratères numériques",
+      "mandatory":"Le champ %(field)s est obligatoire "
+    }
+  }
+}

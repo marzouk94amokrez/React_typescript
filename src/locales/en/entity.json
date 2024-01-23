@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "vat": "N° TVA"
+  },
+  "labels": {
+    "required": "All fields are required",
+    "name": "Name",
+    "identifier": "Identifier",
+    "sirenNo": "N° Siren",
+    "siretNo": "N° Siret",
+    "tvaNo": "N° TVA",
+    "address": "Address",
+    "complementaryAdress": "Address complement",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "country": "Country",
+    "contactAdministrator": "Contact administrator",
+    "exchangeChannels": "exchange channels",
+    "phone": "Telephone",
+    "documentRepository": "Repository of legal documents (KBIS, URSSAFF certificate, ...)",
+    "entities": "Entities with which you wish to work",
+    "status":"Status",
+    "info":"Information on the request for referencing N°",
+    "comment":"Comment by rotiflex",
+    "created_at": "Created at",
+    "type" : "type",
+    "bank_accounts": "Bank accounts",
+    "siren": "Siren",
+    "siret": "Siret",
+    "vat": "Vat",
+    "channel": "Channel"
+  },
+  "buttons":{
+    "sendRequest": "Send the request",
+    "cancel": "Cancel"
+  }
+}

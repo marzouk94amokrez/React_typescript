@@ -1,0 +1,37 @@
+@import "@/assets/scss/global.scss";
+
+.error {
+  @apply text-[var(--rouge)] text-xs;
+}
+
+.app {
+  @apply flex items-center justify-center flex-col gap-28 h-screen bg-slate-300;
+  span {
+    @apply text-xs font-medium;
+  }
+  .login-form {
+    @apply bg-white p-10 w-[50%] rounded-lg;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    input[type="text"],
+    input[type="password"] {
+      @apply h-8 rounded-sm p-2 text-xs text-[var(--color-sec)] font-medium placeholder:italic placeholder:text-[var(--gris)] placeholder:font-medium placeholder:text-xs;
+      border-bottom: 1px solid var(--bleu-icd)!important;
+    }
+
+    input[type="submit"] {
+      @apply cursor-pointer text-white text-sm mt-5 w-32 h-14 ;
+      background: var(--color-princ);
+      border: 1px solid --color-princ;
+      padding: 10px 20px;
+
+      &:hover {
+        background: var(--color-sec);
+      }
+    }
+
+    div div {
+      @apply flex flex-col m-3 gap-2;
+    }
+  }
+}

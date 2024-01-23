@@ -1,0 +1,91 @@
+.statusEditModal__title{
+    margin: 0 0 15px 0px;
+    border-bottom: 2px solid #888888;
+}
+.statusEditModal__title h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 5px;
+    color: #888888;
+}
+.statusEditModal__body{
+    min-height: 50px ;
+    margin: 10px 0 10px 5px;
+}
+.statusEditModal__body p{
+    font-size: 1.1rem;
+}
+.statusEditModal__footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 2px solid #888888;
+    padding-top: 10px;
+}
+
+.statusEditModal__Btn{
+    display: flex;
+    padding: 10px ;
+    justify-self: self-end;
+    background-color: #87a0b6;
+    border: 1px solid #87a0b6;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.statusEditModal__Btn:hover{
+    border: 1px solid #87a0b6;
+    background-color: white;
+    color: #87a0b6;
+}
+.statusEditModal__Btn:focus{
+    outline: none;
+}
+
+.cm__confirmBtn{
+    margin-right: 10px;
+}
+.cm__cancelBtn{
+    background-color: #888888;
+}
+
+.cm__cancelBtn:hover{
+    border: 1px solid #DCDCDC;
+    background-color: white;
+    color: #888888;
+}
+
+.statusModal__status_conatiner{
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed #809FB8;
+}
+
+.statusModal__motif_container{
+    margin-bottom: 1rem;
+}
+
+.statusModal__status_label{
+    color: #809FB8
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    width: 750px;
+    max-width: 900px;
+}
+
+.tableHeader div {
+    color: #809FB8;
+    font-size:0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 27px;
+}
+.tableBody div {
+    color: #505050;
+    font-size:0.9rem;
+    font-weight: normal;
+}

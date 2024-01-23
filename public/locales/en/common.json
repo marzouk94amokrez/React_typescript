@@ -1,0 +1,102 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "show_all": "Show all",
+  "actions": {
+    "search": "Search",
+    "sort": "Sort",
+    "sort_default_field": "Default sort",
+    "sort_asc": "Ascendent",
+    "sort_desc": "Descendent",
+    "period": "--Period--",
+    "filter": "Filter",
+    "export": "Export",
+    "donwload_logs": "Donwload all logs from",
+    "donwload": "Donwload",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "validate": "Validate",
+    "actions": "Actions",
+    "save": "Save",
+    "reset": "Reset",
+    "depositConfirm": "Confirmer le dépôt"
+  },
+  "messages": {
+    "pendingAuthentication": "Authentication...",
+    "pendingAuthenticationMessage": "This may take a few seconds, please don't close this page.",
+    "redirectToEdition": "Go to edition",
+    "deletionPopupTitle": "Delete confirmation",
+    "confirmDeletion": "Please confirm deletion",
+    "downloadFile": "Download file",
+    "upload_here": "Déposez vos fichier ou cliquez pour selectionner vos fichiers"
+  },
+  "labels": {
+    "creation": "Creation",
+    "startup": "Startup",
+    "end": "End",
+    "select": "-- Select --",
+    "yes": "Yes",
+    "no": "No",
+    "export": "Export",
+    "download_logs": "Downloads logs", 
+    "resultExport": "Export result",
+    "multiplePDFFile": "Several PDF files (compressed archive)",
+    "singlePDFFile": "A single PDF file (concatenation)",
+    "modeExprort": "Export mode",
+    "result": "results",
+    "allElementInCurrentPage":"All elements of the current page",
+    "allElements": "Elements of all pages",
+    "selectedElements":"Only selected items",
+    "maximumNumberItems": "Exceeds maximum number of items"
+  },
+  "menus": {
+    "home": "Home",
+    "supplier": "Supplier",
+    "repository": "Repository",
+    "invoiceTracking": "Invoice tracking",
+    "kpi": "KPI",
+    "boarding": "Boarding",
+    "client": "Client",
+    "invoice": "Invoice",
+    "documentation": "Documentation",
+    "communication": "Communication",
+    "extraction": "Extraction",
+    "administration": "Administration",
+    "passwordEdit": "Change password",
+    "logout": "Logout",
+    "darkMode": "Dark mode",
+    "referencing": "Referencing request"
+  },
+  "models": {
+    "entity": "Supplier",
+    "invoice": "Invoice",
+    "supplier": "Supplier",
+    "referencing": "Referencing",
+    "invoice_signature": "Signature"
+  },
+  "settings": {
+    "number": {
+      "delimiters": {
+        "thousands": ",",
+        "decimal": "."
+      },
+      "abbreviations": {
+        "thousand": "k",
+        "million": "m",
+        "billion": "b",
+        "trillion": "t"
+      },
+      "currency": {
+        "symbol": "€"
+      }
+    },
+    "date": {
+      "dateformat": "MM/DD/yyyy",
+      "timeformat": "HH:mm"
+    }
+  }
+}

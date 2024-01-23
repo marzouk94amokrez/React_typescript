@@ -1,0 +1,65 @@
+.item {
+  @apply items-center cursor-pointer flex text-[0.8rem] h-[30px] justify-center w-[30px];
+
+  &.hide {
+    @apply hidden;
+  }
+}
+
+.disabled-page {
+  @apply text-[#808e9b];
+}
+
+.break-me {
+  @apply text-[var(--color-sec)];
+}
+
+.next {
+  @apply absolute right-0 bg-[#f8f9fa] rounded-[40px];
+
+  a {
+    @apply text-[var(--color-sec)];
+  }
+  &:hover {
+    @apply bg-[#dae0e5] text-[var(--color-princ)];
+  }
+}
+
+.pagination {
+  @apply items-center flex flex-row h-[50px] justify-center list-none relative;
+
+  .disabled-page {
+    &:first-child,
+    &:last-child {
+      @apply hidden;
+    }
+  }
+}
+
+.pagination-page {
+  @apply font-[700] rounded-[40px] p-[10px] bg-[#f8f9fa];
+
+  &:hover {
+    @apply bg-[#dae0e5] text-[var(--color-princ)];
+  }
+  a {
+    @apply text-[var(--color-sec)];
+  }
+}
+.active {
+  @apply rounded-[40px] bg-[#dae0e5];
+
+  a {
+    @apply text-[var(--color-princ)];
+  }
+}
+
+.previous {
+  @apply left-0 absolute bg-[#f8f9fa] rounded-[40px];
+  a {
+    @apply text-[var(--color-sec)];
+  }
+  &:hover {
+    @apply bg-[#dae0e5] text-[var(--color-princ)];
+  }
+}

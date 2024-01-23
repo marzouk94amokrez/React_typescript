@@ -1,0 +1,92 @@
+.html-renderer {
+  h1, h2, h3, h4 {
+    @apply font-bold my-2;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  h4 {
+    @apply text-base;
+  }
+
+  h5 {
+    @apply text-sm;
+  }
+
+  h6 {
+    @apply text-xs;
+  }
+
+  p {
+    @apply my-4;
+  }
+
+  ul {
+    @apply list-disc my-4 pl-8;
+  }
+
+  .quill {
+    .ql-container {
+      @apply font-sans;
+      @apply text-[100%];
+
+      &.ql-snow {
+        .ql-editor {
+          @apply max-h-48 overflow-auto;
+
+          h1, h2, h3, h4 {
+            @apply font-bold my-2;
+          }
+        
+          h1 {
+            @apply text-2xl;
+          }
+        
+          h2 {
+            @apply text-xl;
+          }
+        
+          h3 {
+            @apply text-lg;
+          }
+        
+          h4 {
+            @apply text-base;
+          }
+        
+          h5 {
+            @apply text-sm;
+          }
+        
+          h6 {
+            @apply text-xs;
+          }
+        
+          p {
+            @apply my-4;
+          }
+        
+          ul {
+            @apply list-disc my-4 pl-8;
+          }
+        }
+
+        .ql-font-serif {
+          @apply font-serif;
+        }
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// https://fonts.google.com/specimen/Roboto
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+@import "@/assets/scss/global.scss";
+
+html {
+  @apply font-sans text-[color:var(--color-default)] bg-[color:var(--background-color)] w-screen h-screen font-medium;
+  scrollbar-width: thin;
+}
+
+body {
+  @apply w-full h-full;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.15rem;
+}
+
+#root {
+  @apply w-full h-full;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  @apply text-[color:var(--color-princ)]  no-underline;
+
+  &:hover {
+    @apply text-[color:var(--color-sec)];
+  }
+
+  &:visited {
+    @apply text-[color:var(--color-princ)];
+  }
+}
+
+table {
+  @apply bg-white text-[0.9rem];
+
+  th {
+    @apply text-left font-bold cursor-pointer text-[var(--color-sec)] bg-white first-letter:uppercase;
+  }
+
+  a {
+    @apply text-[var(--color-default)];
+
+    &:hover {
+      @apply text-[var(--color-princ)];
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-scrollbar-thumb);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-track);
+}

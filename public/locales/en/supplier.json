@@ -1,0 +1,45 @@
+{
+ 
+
+  "fields": {
+    "vat": "N° TVA",
+    "name": "Nom",
+    "code" : "Code",
+     "supplier_code_label":"code",
+    "identifier": "Identifiant",
+    "siren": "Identifiant 2: N° Siren",
+    "siret": "Identifiant 1: N° Siret",
+    "vat": "Identifiant 3: N° TVA",
+    "status":"Statut",
+    "address": "Adresse",
+    "additional_address": "Complément d'adresse",
+    "zip_code": "Code postal",
+    "city": "Ville",
+    "statut": "statut",
+    "country": "Pays",
+    "contact_admin" : "contact administrateur",
+    "contactAdministrator": "Contact administrateur",
+    "exchange_channel": "Canal d'échange",
+    "phone": "Télephone",
+    "created_at": "Date de création",
+    "updated_at" : "Date de modification",
+    "bank_details": "Compte bancaire",
+    "family":"Famille",
+    "language" :"Langue",
+    "number":"N°",
+    "type":"Type",
+    "entity":"",
+    "invoiceDate":"", 
+    "invoiceDeliveryDate" :"",
+    "invoiceDepositDate":"",
+    "amountExcludingTax":"",
+    "amountIncludingTax":"",
+    "valueAddedTaxAmount":"",
+    "valueAddedTaxCodes":"",
+
+  
+  }
+
+ 
+  
+}

@@ -1,0 +1,104 @@
+{
+  "yes": "Oui",
+  "no": "Non",
+  "show_all": "Afficher tout",
+  "actions": {
+    "search": "Rechercher",
+    "sort": "Tri",
+    "sort_default_field": "Tri par défaut",
+    "sort_asc": "Croissant",
+    "sort_desc": "Décroissant",
+    "period": "--Période--",
+    "filter": "Filtres",
+    "export": "Exporter",
+    "donwload_logs": "Télécharger tous les logs depuis",
+    "donwload": "Télécharger",
+    "add": "Ajouter",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "validate": "Valider",
+    "actions": "Actions",
+    "save": "Sauvegarder",
+    "reset": "Réinitialiser",
+    "depositConfirm": "Confirmer le dépôt"
+  },
+  "messages": {
+    "pendingAuthentication": "Authentification...",
+    "pendingAuthenticationMessage": "Ceci peut prendre quelques secondes, veuillez ne pas fermer cette page.",
+    "redirectToEdition": "Aller vers la page d'édition",
+    "deletionPopupTitle": "Confirmation de suppression",
+    "confirmDeletion": "Veuillez confirmer la suppression",
+    "downloadFile": "Télécharger le fichier",
+    "upload_here": "Déposez vos fichier ou cliquez pour selectionner vos fichiers"
+  },
+  "labels": {
+    "creation": "Création",
+    "startup": "Démarrage",
+    "end": "Fin",
+    "select": "-- Sélectionner --",
+    "yes": "Oui",
+    "no": "Non",
+    "export": "Export",
+    "download_logs": "Téléchargement des logs", 
+    "resultExport": "Résultat d'export",
+    "multiplePDFFile": "Plusieurs fichiers PDF (archive compressée)",
+    "singlePDFFile": "Un seul fichier PDF (concaténation)",
+    "modeExprort": "Mode d'export",
+    "result": "résultats",
+    "allElementInCurrentPage":"Tous les éléments de la page courante",
+    "allElements": "Les éléments de toutes les pages",
+    "selectedElements":"Uniquement les éléments selectionnés"
+
+  },
+  "menus": {
+    "home": "Accueil",
+    "supplier": "Fournisseur",
+    "repository": "Référentiel",
+    "invoiceTracking": "Suivi des factures",
+    "kpi": "KPI",
+    "boarding": "Embarquement",
+    "client": "Client",
+    "invoice": "Facture",
+    "documentation": "Documentation",
+    "communication": "Communication",
+    "extraction": "Extraction",
+    "administration": "Administration",
+    "changePassword": "Modifier mot de passe",
+    "logout": "Se déconnecter",
+    "darkMode": "Mode nuit",
+    "referencing": "Demande de référencement"
+  },
+  "models": {
+    "entity": "Fournisseur",
+    "invoice": "Facture",
+    "supplier": "Fournisseur",
+    "customer" : "Client",
+    "referencing": "Reférencement",
+    "invoice_signature": "Parapheur",
+    "invoice_customer": "Facture client"
+  },
+  "settings": {
+    "number": {
+      "delimiters": {
+        "thousands": " ",
+        "decimal": ","
+      },
+      "abbreviations": {
+        "thousand": "k",
+        "million": "m",
+        "billion": "b",
+        "trillion": "t"
+      },
+      "currency": {
+        "symbol": "€"
+      }
+    },
+    "date": {
+      "dateformat": "DD/MM/yyyy",
+      "timeformat": "HH:mm"
+    }
+  }
+}

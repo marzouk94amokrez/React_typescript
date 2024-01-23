@@ -1,0 +1,98 @@
+{    
+    "attachment": {
+        "clickToDownload": "Cliquez pour télécharger",
+        "noAttachment": "Il n'y a pas de pièce jointe"
+    },
+    "bookmark": {
+        "noBookmark": "Il n'y a pas de signet"
+    },
+    "core": {
+        "askingPassword": {
+            "requirePasswordToOpen": "Ce document nécessite un mot de passe pour s'ouvrir",
+            "submit": "Soumettre"
+        },
+        "wrongPassword": {
+            "submit": "Soumettre",
+            "tryAgain": "Le mot de passe est incorrect. Veuillez réessayer"
+        }
+    },
+    "defaultLayout": {
+        "attachment": "Attachement",
+        "bookmark": "Signet",
+        "thumbnail": "Vignette"
+    },
+    "download": {
+        "download": "Télécharger"
+    },
+    "drop": {
+        "dragDropFile": "Faites glisser et déposez un document PDF ici"
+    },
+    "fullScreen": {
+        "enterFullScreen": "Plein écran"
+    },
+    "localeSwitcher": {
+        "switchLocale": "Changer de langue"
+    },
+    "open": {
+        "openFile": "Ouvrir un fichier"
+    },
+    "pageNavigation": {
+        "goToFirstPage": "Première page",
+        "goToLastPage": "Dernière page",
+        "goToNextPage": "Page suivante",
+        "goToPreviousPage": "Page précédente"
+    },
+    "print": {
+        "cancel": "Annuler",
+        "preparingDocument": "Préparation du document ...",
+        "print": "Imprimer"
+    },
+    "properties": {
+        "author": "Auteur",
+        "close": "Fermer",
+        "creationDate": "Date de création",
+        "creator": "Responsable",
+        "fileName": "Nom de fichier",
+        "fileSize": "Taille du fichier",
+        "keywords": "Mots clés",
+        "modificationDate": "Date de modification",
+        "pageCount": "Nombre de pages",
+        "pdfProducer": "Producteur PDF",
+        "pdfVersion": "Version PDF",
+        "showProperties": "Afficher les propriétés",
+        "subject": "Matière",
+        "title": "Titre"
+    },
+    "rotate": {
+        "rotateBackward": "Tourner dans le sens antihoraire",
+        "rotateForward": "Le sens des aiguilles d'une montre"
+    },
+    "scrollMode": {
+        "horizontalScrolling": "Défilement horizontal",
+        "verticalScrolling": "Défilement vertical",
+        "wrappedScrolling": "Défilement enveloppé"
+    },
+    "search": {
+        "close": "Fermer",
+        "enterToSearch": "Entrez pour rechercher",
+        "matchCase": "Cas de correspondance",
+        "nextMatch": "Prochain match",
+        "previousMatch": "Match précédent",
+        "search": "Rechercher",
+        "wholeWords": "Mots entiers"
+    },
+    "selectionMode": {
+        "handTool": "Outil à main",
+        "textSelectionTool": "Outil de sélection de texte"
+    },
+    "toolbar": {
+        "moreActions": "Plus d'actions"
+    },
+    "zoom": {
+        "actualSize": "Taille actuelle",
+        "pageFit": "Ajustement de la page",
+        "pageWidth": "Largeur de page",
+        "zoomIn": "Agrandir",
+        "zoomOut": "Dézoomer"
+    }
+}

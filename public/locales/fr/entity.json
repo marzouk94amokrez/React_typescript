@@ -1,0 +1,36 @@
+{
+ 
+  "fields": {
+    "required": "Tous les champs sont obligatoires",
+    "name": "Nom",
+    "code" :"Code",
+    "identifier": "Identifiant",
+    "siren": "Identifiant 1: N° Siren",
+    "siret": "Identifiant 2: N° Siret",
+    "vat": "Identifiant 3: N° TVA",
+    "postal_code" : "Code postal",
+    "address": "Addresse",
+    "address_complement": "Adresse complémentaire",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "country": "Pays",
+    "contactAdministrator": "Contact administrateur",
+    "channel": "Canal d'échange",
+    "phone": "Télephone",
+    "documentRepository": "Dépot de documents légaux (KBIS, Attestation URSSAFF, ...)",
+    "entities":"Entités avec lesquelles vous souhaitez travailler",
+    "status":"Statut",
+    "info":"Information sur la demande de référencement N°",
+    "comment":"Commentaire de rotiflex",
+    "created_at": "Date de création",
+    "type" : "Type",
+    "bank_accounts": "Compte bancaire"
+
+  },
+  "buttons":{
+    "sendRequest":"Envoyer la demande",
+    "cancel":"Annuler"
+  }
+
+  
+}

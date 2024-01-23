@@ -1,0 +1,44 @@
+.pdfViewer_toolbar {
+    display: flex;
+    align-items: center;
+}
+
+.rpv-default-layout-toolbar{
+    background-color: rgba(25, 98, 158, 0.3);
+}
+
+.rpv-default-layout-sidebar-headers{
+    background-color: rgba(25, 98, 158, 0.3);
+}
+.pdfViwer_toolbarElements_flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pdfViwer_toolbarElements_rightActions{
+    display: flex;
+    align-items: center;
+}
+
+.pdfViwer_toolbarElements_leftActions{
+    display: flex;
+    align-items: center;
+}
+
+.pdfToolbar_toHide_mobile {
+    display: block;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .rpv-default-layout-sidebar {
+        display: none;
+    }
+    .pdfToolbar_toHide_mobile {
+        display: none;
+    }
+    .rpv-default-layout-container{
+        z-index: 100;
+    }
+}

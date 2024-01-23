@@ -1,0 +1,51 @@
+{
+  "modal": {
+    "title": "Action sur la facture"
+  },
+  "label": {
+    "action": "Action",
+    "cause": "Motif",
+    "comment": "Commentaire",
+    "optional": "facultatif",
+    "required": "obligatoire",
+    "accept": "Accepter le bon à payer",
+    "refuse": "Refuser le bon à payer",
+    "refuse_order": "Numéro de commande incomplet",
+    "refuse_quantity": "Ecart de quantité",
+    "refuse_article": "Article non référencé",
+    "refuse_amount": "Montant erroné",
+    "dispute": "Litige",
+    "pending_validation": "Demander une validation",
+    "deposit_notice": "Notices de dépôt",
+    "supplier": "Fournisseur",
+    "invoice_deposit": "Dépôt de facture",
+    "deposit_list": "Listes des fichiers déposées",
+    "column_filename": "Fichier",
+    "column_filesize": "Poids",
+    "column_filetype": "Nom"
+  },
+  "error_message": {
+    "action_required": "Action obligatoire",
+    "reason_comment_required": "Motif et commentaire obligatoires",
+    "comment_required": "Commentaire obligatoire",
+    "reason_required": "Motif obligatoire"
+  },
+  "message": {
+    "deposit_notice_1": "Le factures doivent être déposés au format PDF et ne doivent pas excéder un poids de 8 Mega Octets(Mo) par facture",
+    "deposit_notice_2": "Elles seront visibles dans le suivi de factures 10 minutes après leur dépôt sur le portail"
+  },
+  "headers": {
+    "invoice_customer_list_title": "Liste des factures client",
+    "invoice_customer_list_subtitle": "factures client"
+  },
+  "status":{
+    "INVOICE_RECEIVED": "Facture reçue",
+    "INVOICE_VALIDATED": "Facture validée",
+    "INVOICE_CONTROLLED": "Facture contrôlée",
+    "INVOICE_PAID": "Facture payée",
+    "INVOICE_TO_CONTROL": "Facture à contrôler",
+    "INVOICE_SENT": "Facture envoyée",
+    "INVOICE_REJECTED": "Facture rejetée"
+    
+  }
+}

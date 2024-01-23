@@ -1,0 +1,86 @@
+@import 'react-datetime-picker/dist/DateTimePicker.css';
+@import 'react-calendar/dist/Calendar.css';
+@import 'react-clock/dist/Clock.css';
+
+.react-calendar {
+  @apply rounded-md;
+  border-color: var(--color-sec);
+  color: var(--color-default);
+}
+
+.react-datetime-picker__wrapper {
+  border: none;
+}
+.react-datetime-picker__clear-button {
+  @apply text-[color:var(--color-sec)];
+
+  & > svg {
+    @apply stroke-current;
+  }
+}
+.react-datetime-picker__calendar-button {
+  @apply text-[color:var(--color-sec)];
+  @apply pr-0;
+
+  & > svg {
+    @apply stroke-current;
+  }
+}
+.react-calendar__tile--active {
+  background: var(--color-princ);
+}
+.react-calendar__month-view__days__day--weekend {
+  color: var(--rouge);
+}
+
+.react-datetime-picker__inputGroup__input:invalid {
+  background: var(--gris-bleu);
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+  background: var(--color-princ);
+  color: white;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: var(--color-sec);
+}
+
+.react-calendar__tile--now {
+  background: var(--gris-bleu);
+
+}
+
+.react-calendar__tile--now:enabled:hover, .react-calendar__tile--now:enabled:focus {
+  background: var(--color-sec);
+  color: white;
+}
+
+.react-calendar__tile--hasActive {
+  background: var(--color-sec);
+}
+
+.react-datetimerange-picker {
+  display: flex;
+  flex-direction: column;
+
+  &__wrapper{
+    flex: 0 0 auto;
+    width: 100%;
+    border: 2px solid var(--gris-bleu);
+  }
+
+  &__calendar{
+    @apply w-full my-4;
+    position: relative !important;
+    inset: initial !important;
+    height: auto !important;
+  }
+
+  &__inputGroup__input:invalid {
+    background: var(--gris-bleu);
+  }
+  &__calendar-button { 
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+footer[class^=rsg--footer-] {
+  position: fixed;
+  right: 2rem;
+  bottom: 0vh;
+  opacity: 0.5;
+  font-size: 0.5rem;
+  transition: all 0.4s;
+}
+
+footer[class^=rsg--footer-]:hover {
+  opacity: 1;
+}
+
+footer[class^=rsg--footer-] p[class^=rsg--para-] {
+  font-size: 0.6rem;
+}

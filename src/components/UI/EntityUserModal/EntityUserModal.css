@@ -1,0 +1,29 @@
+.modal_w_mc{
+    max-width: fit-content;
+}
+
+.entityUserModal_items{
+    margin-top: 0.5rem;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.entityUserModal__table{
+    width: 97%;
+   
+}
+
+.entityUserModal__table td {
+    width: 100%;
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.entityUserModal__table th {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

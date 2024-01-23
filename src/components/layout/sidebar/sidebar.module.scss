@@ -1,0 +1,104 @@
+.sidenav {
+  @apply flex flex-col w-full h-full relative pt-4 overflow-hidden text-[0.8rem];
+
+  &.expanded {
+    .expand_button {
+      @apply right-2 absolute bg-[color:var(--menu-bg-expand-button)] text-[color:var(--menu-color-expand-button)];
+    }
+
+    .menu_wrapper {
+      &.depth__0 {
+        @apply max-w-none;
+        @apply rounded-none rounded-tl-2xl rounded-br-2xl;
+        @apply hover:bg-[color:var(--color-princ)] hover:text-[color:var(--colors-secondary-3)];
+        @apply hover:shadow-none;
+
+        &.active {
+          @apply bg-[color:var(--color-princ)] text-[color:var(--colors-secondary-3)];
+          @apply shadow-none;
+        }
+      }
+
+      .label {
+        @apply flex items-center justify-center lg:inline;
+      }
+    }
+  }
+
+  & > a {
+    @apply flex-none w-full h-16 hidden mb-8;
+  }
+
+  .expand_button {
+    @apply text-[color:var(--color-sec)];
+    @apply hidden lg:flex justify-center items-center rounded-full cursor-pointer w-10 h-10;
+    @apply relative self-center bg-transparent;
+  }
+
+  .menu_wrapper {
+    @apply flex py-2 flex-row cursor-pointer justify-center lg:justify-start items-baseline transition-colors text-[color:var(--color-sec)] no-underline;
+
+    &.depth__0 {
+      @apply px-2 lg:p-0 rounded-full max-w-fit;
+      @apply hover:transition-all hover:ease-in-out hover:duration-500;
+      @apply hover:bg-[color:var(--menu-bg--collapsed--hover)] hover:text-[color:var(--color-princ)];
+      @apply hover:shadow-[0px_3px_6px_rgba(0,0,0,0.16)];
+
+      &.active {
+        @apply bg-[color:var(--menu-bg--collapsed--hover)] text-[color:var(--color-princ)];
+        @apply shadow-[0px_3px_6px_rgba(0,0,0,0.16)];
+      }
+
+      button {
+        @apply lg:p-2;
+      }
+    }
+
+    &.depth__1, &.depth__2, &.depth__3 {
+      &.active {
+        @apply text-[color:var(--color-princ)];
+      }
+    }
+
+    &.depth__2 {
+      
+    }
+
+    .label {
+      @apply items-center justify-center lg:hidden
+    }
+  }
+}
+
+.floating_ui {
+  float:left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: small;
+}
+
+.floating_ui_submenu {  
+  position: fixed;
+  float: left;
+  margin-left: 10rem;
+}
+
+.submenu {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: small;
+}
+
+.tooltip:hover .tooltipSubmenu {
+  visibility: visible;
+}
+
+.tooltipSubmenu {
+  visibility: hidden;
+}
